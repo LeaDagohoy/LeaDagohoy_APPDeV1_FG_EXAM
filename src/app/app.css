@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between; /* push items to edges */
+  align-items: center;            /* vertically center */
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}

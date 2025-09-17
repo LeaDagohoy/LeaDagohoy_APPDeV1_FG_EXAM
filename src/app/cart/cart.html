@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let item of product">
+    {{ item.name }} - ₱{{ item.price }} - Stock: {{ item.stock }}
+    <button (click)="addToCart(item)" [disabled]="item.stock === 0">Add to Cart</button>
+  </li>
+</ul>
+<router-outlet/>
